@@ -9,22 +9,22 @@ section{
     margin: 80px auto;
     
 }
-  
 
-header{
-    background-color: #8fb900;
-    display: flex;
-    justify-content: center;
-    color: white;
-    font-weight: bold;
-}
-header div{
+.container{
     width: 1160px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
     padding: 10px 0;
 }
+
+header{
+    background-color: #8fb900;
+    color: white;
+    font-weight: bold;
+}
+ 
 
 header h1{
      font-size: 22px;
@@ -128,3 +128,23 @@ h3{
  .business-text{
      width: 575px;
  }
+
+ /* FOOTER */
+
+
+ footer{
+    background-color: #8fb900;
+    color: white;
+    font-weight: bold;
+ }
+ footer a {
+     color: white;
+     font-weight: bold;
+     text-decoration: none;
+     margin-left: 10px;
+ }
+ footer p {
+      font-size: 20px;
+      font-weight: bold;
+ }
+
