@@ -114,8 +114,17 @@ h3{
     padding: 10px;
 }
 
-.container-item{
+.container-item {    
     display: flex;
     justify-content: space-between;
-    
 }
+
+/* SECTION BUSINESS */
+ .business{
+     display: flex ;
+     justify-content: space-between;
+ }
+
+ .business-text{
+     width: 575px;
+ }
